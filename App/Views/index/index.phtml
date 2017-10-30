@@ -1,0 +1,8 @@
+Index View
+<br>
+
+<?php
+foreach ($this->view->clients as $client) {
+	echo "<p>". $client['nome'] ."</p>";
+	echo "<p>". $client['email'] ."</p>";
+}
